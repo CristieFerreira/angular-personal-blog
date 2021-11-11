@@ -1,0 +1,30 @@
+
+.wrapper {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -100px;
+    padding-bottom: 100px;
+}
+.social-network{
+    list-style: none;
+    padding: 0;
+}
+
+.social-network > li{
+    display: inline;
+    padding: 5px;
+    margin: 0;
+    font-size: 35px
+}
+
+.icoGithub, .icoLinkedin {
+    color: white;
+}
+
+.icoGithub:hover{
+    color: #171515;
+}
+
+.icoLinkedin:hover{
+    color: #0072b1;
+}
